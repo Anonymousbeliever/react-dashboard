@@ -9,13 +9,12 @@
     transition: margin-left 0.3s ease-in-out;
     overflow-y: auto;
   }
-  
 
   .sidebar {
     padding-top: 20px;
     width: 450px;
-    height: 100vh; /* Set the sidebar height to 100% of the viewport height */
-    overflow-y: auto; /* Enable vertical scrolling */
+    height: 100vh; 
+    overflow-y: auto; 
    
   }
 
@@ -40,78 +39,37 @@
   
 /* Initial state for links and icons */
 .sidebar-content .nav-link {
-    color: #000; /* Set initial color to red */
+    color: #000;
   }
   
   .sidebar-content .sidebar-icon {
-    color: #000; /* Set initial icon color to red */
-    transition: color 0.2s ease; /* Smooth transition for icon color */
+    color: #000; 
+    transition: color 0.2s ease; 
   }
   
-  /* Hover styling (applied to all links) */
+  
   .sidebar-content .nav-link:hover {
-    color: #32CD32; /* Lime green text color */
-    background-color: transparent; /* No background change */
+    color: #32CD32; 
+    background-color: transparent; 
   }
   
-  /* Ensure icons change color when hovered */
+  
   .sidebar-content .nav-link:hover .sidebar-icon {
-    color: #32CD32; /* Lime green color for icon when hovered */
+    color: #32CD32; 
   }
-  
-  
-
- 
   
   .sidebar-content {
-    flex-grow: 1; /* Ensure the content takes up available space */
+    flex-grow: 1;
   }
 
-  
-  
-  /* .sidebar {
-    height: calc(100vh - 56px);
-    position: fixed;
-    top: 56px;
-    left: 0;
-    z-index: 100;
-    padding: 0;
-    box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
-    transition: all 0.3s;
-  }
-  
-  .sidebar-sticky {
-    position: relative;
-    top: 0;
-    height: calc(100vh - 56px);
-    padding-top: .5rem;
-    overflow-x: hidden;
-    overflow-y: auto;
-  }
-   */
-
-   /* Style for the tab titles */
 .nav-tabs .nav-link {
-    color: #000; /* Set the tab title color to red */
+    color: #000;
   }
   
-  /* Optional: Change the color of active tab title */
   .nav-tabs .nav-link.active {
-    color: #000; /* Set the active tab color to lime green or any color you prefer */
+    color: #000;
   }
   
-
-
-
-   
-  /* .nav-link {
-    color: #333;
-  }
-  
-  .nav-link:hover,
-  .nav-link.active {
-    color: #32CD32;
-  } */
   
   .card {
     margin-bottom: 20px;

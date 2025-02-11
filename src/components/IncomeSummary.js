@@ -15,7 +15,7 @@ const GroupIncomeChart = () => {
     <div className="w-full max-w-4xl p-4 bg-gray-50 rounded-lg">
       {/* Header */}
       <div className="mb-4">
-        <h2 className="text-lg font-medium text-green-600">Group Income</h2>
+        <h2 className="text-lg font-medium text-green-600" style={{ color: "#32CD32", fontSize: "25px", fontWeight: "600" }}>Group Income</h2>
         <p className="text-sm text-gray-600">Monthly Deposits less withdrawals</p>
       </div>
 
@@ -51,17 +51,16 @@ const GroupIncomeChart = () => {
       {/* Metrics Section */}
       <Container className="py-2">
       <Row className="align-items-center">
-        {/* Left-aligned title */}
         <Col xs={4} className="text-start">
           <span>Feb Collections</span>
         </Col>
 
-        {/* Center-aligned amount */}
+      
         <Col xs={4} className="text-center">
           <span>KES 0</span>
         </Col>
 
-        {/* Right-aligned button */}
+       
         <Col xs={4} className="text-end">
           <Button variant="light" size="sm">View</Button>
         </Col>
@@ -69,17 +68,17 @@ const GroupIncomeChart = () => {
       <p style={{color: "#4169E1", fontSize: "small" }}>0% ↑ Increase</p>
 
       <Row className="align-items-center">
-        {/* Left-aligned title */}
+       
         <Col xs={4} className="text-start">
           <span>Feb New Income</span>
         </Col>
 
-        {/* Center-aligned amount */}
+     
         <Col xs={4} className="text-center">
           <span>KES 0</span>
         </Col>
 
-        {/* Right-aligned button */}
+      
         <Col xs={4} className="text-end">
           <Button variant="light" size="sm">View</Button>
         </Col>
@@ -87,17 +86,17 @@ const GroupIncomeChart = () => {
       <p style={{color: "#4169E1", fontSize: "small" }}>0% ↑ Increase</p>
 
       <Row className="align-items-center">
-        {/* Left-aligned title */}
+      
         <Col xs={4} className="text-start">
           <span>Feb Profit Margin</span>
         </Col>
 
-        {/* Center-aligned amount */}
+       
         <Col xs={4} className="text-center">
           <span>KES 0</span>
         </Col>
 
-        {/* Right-aligned button */}
+       
         <Col xs={4} className="text-end">
           <Button variant="light" size="sm" >View</Button>
         </Col>
