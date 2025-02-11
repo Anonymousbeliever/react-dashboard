@@ -1,0 +1,143 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .content {
+    flex-grow: 1;
+    transition: margin-left 0.3s ease-in-out;
+    overflow-y: auto;
+  }
+  
+
+  .sidebar {
+    padding-top: 20px;
+    width: 450px;
+    height: 100vh; /* Set the sidebar height to 100% of the viewport height */
+    overflow-y: auto; /* Enable vertical scrolling */
+   
+  }
+
+  .sidebar-search {
+    position: relative;
+  }
+
+
+.sidebar-search .search-icon {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #6c757d;
+  }
+  
+  .sidebar-search input {
+    padding-left: 2.5rem;
+  }
+
+
+  
+/* Initial state for links and icons */
+.sidebar-content .nav-link {
+    color: #000; /* Set initial color to red */
+  }
+  
+  .sidebar-content .sidebar-icon {
+    color: #000; /* Set initial icon color to red */
+    transition: color 0.2s ease; /* Smooth transition for icon color */
+  }
+  
+  /* Hover styling (applied to all links) */
+  .sidebar-content .nav-link:hover {
+    color: #32CD32; /* Lime green text color */
+    background-color: transparent; /* No background change */
+  }
+  
+  /* Ensure icons change color when hovered */
+  .sidebar-content .nav-link:hover .sidebar-icon {
+    color: #32CD32; /* Lime green color for icon when hovered */
+  }
+  
+  
+
+ 
+  
+  .sidebar-content {
+    flex-grow: 1; /* Ensure the content takes up available space */
+  }
+
+  
+  
+  /* .sidebar {
+    height: calc(100vh - 56px);
+    position: fixed;
+    top: 56px;
+    left: 0;
+    z-index: 100;
+    padding: 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+  }
+  
+  .sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 56px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+   */
+
+   /* Style for the tab titles */
+.nav-tabs .nav-link {
+    color: #000; /* Set the tab title color to red */
+  }
+  
+  /* Optional: Change the color of active tab title */
+  .nav-tabs .nav-link.active {
+    color: #000; /* Set the active tab color to lime green or any color you prefer */
+  }
+  
+
+
+
+   
+  /* .nav-link {
+    color: #333;
+  }
+  
+  .nav-link:hover,
+  .nav-link.active {
+    color: #32CD32;
+  } */
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .text-success {
+    color: #32CD32 !important;
+  }
+  
+  .bg-success {
+    background-color: #32CD32 !important;
+  }
+  
+  .card-height{
+    height: auto;
+    padding-bottom: 63px;
+  }
+  
+  .custom-table-header {
+    background-color: #32CD32;
+    color: white;
+  }
+
+  .dash{
+    padding-top: 100px;
+    overflow-x: hidden;
+    height: 100vh;
+  }
+  
